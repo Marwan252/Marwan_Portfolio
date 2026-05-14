@@ -9,7 +9,18 @@ export const projects = [
     github: 'https://github.com/Marwan252/ANN-Projects',
     demo: '#',
   },
-    {
+  {
+    id: 'chest-xray-pneumonia-classification',
+    title: 'Chest X-Ray Pneumonia Classification',
+    category: 'computer-vision',
+    description:
+    'Deep learning project for pneumonia detection from chest X-ray images using CNN and transfer learning. Includes regularization techniques, handles class imbalance, and achieves over 91% accuracy with high recall for reliable medical predictions.',
+    tech: [ 'TensorFlow', 'Keras', 'VGG16', 'OpenCV', 'Computer Vision', 'Deep Learning'],
+    kaggle: 'https://www.kaggle.com/code/marwanbebars777/chest-x-ray-using-cnn-transfer-learn',
+    github: '#',
+    demo: '#',
+  },
+  {
     id: 'driver-monitoring-system',
     title: 'AI-Based Driver Monitoring System',
     category: 'computer-vision',
@@ -18,14 +29,21 @@ export const projects = [
     github: 'https://github.com/Marwan252/Driver-Monitoring-System',
     demo: '#',
   },
-  {
-    id: 'ufc-crime-dataset',
-    title: 'UFC Crime Dataset Classification',
-    category: 'classification',
-    description:
-      'Machine learning project for classifying crime types using the UFC Crime Dataset. Includes data preprocessing, image loading, model building with DenseNet121, and evaluation.',
-    tech: ['Python', 'Pandas', 'NumPy', 'TensorFlow', 'Keras', 'DenseNet121', 'Matplotlib', 'Seaborn', 'Plotly'],
-    github: '#',
+    {
+    id: 'UFC-Crime-Dataset',
+    title: 'UFC Crime Dataset',
+    category: 'computer-vision',
+    description:'The UFC Crime Dataset is a collection of images captured from the UFC\'s fight cameras, which are used to monitor the fighters during their training sessions. The dataset is used to train and evaluate the models for the crime detection system.',
+    tech: [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "DenseNet121",
+      "Scikit-learn",
+      "Image Processing",
+      "Transfer Learning",
+  ],
+    kaggle: 'https://www.kaggle.com/code/marwanbebars777/ufc-crime-dataset',
     demo: '#',
   },
   {
@@ -35,7 +53,7 @@ export const projects = [
     description:
       'PyTorch-based project for classifying brain tumors from MRI images. Includes data preprocessing, image augmentation, model training with ResNet18, and evaluation.',
     tech: ['Python', 'PyTorch', 'Torchvision', 'NumPy', 'Matplotlib'],
-    github: '#',
+    kaggle: 'https://www.kaggle.com/code/marwanbebars777/brain-tumor-classification-pytorch',
     demo: '#',
   },
   {
@@ -69,13 +87,13 @@ export const projects = [
     demo: '#',
   },
   {
-    id: 'ml-model-comparison',
-    title: 'Machine Learning Model Comparison',
+    id: 'loan-prediction-model',
+    title: 'Loan Approval Prediction Model',
     category: 'ml',
     description:
-      'Comparative analysis of multiple ML algorithms for regression and classification tasks. Implements data preprocessing, feature scaling, cross-validation, and hyperparameter tuning with detailed performance metrics and visualizations.',
-    tech: ['Scikit-learn', 'Python', 'Pandas', 'NumPy', 'XGBoost', 'Jupyter'],
-    github: '#',
+      'Machine Learning project for predicting loan approvals while minimizing financial risk. Implements data preprocessing, feature engineering, class imbalance handling using Logistic Regression with class_weight balancing, and model evaluation using confusion matrix and classification metrics to achieve high recall for approved loans.',
+    tech: ['Python', 'Scikit-learn', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Jupyter'],
+    github: 'https://github.com/Marwan252/Loan-Prediction-project',
     demo: '#',
   },
   {
